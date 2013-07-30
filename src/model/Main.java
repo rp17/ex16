@@ -10,6 +10,8 @@ public class Main {
 		System.out.println("running");
 		SensorList sensList = new SensorList();
 		sensList.print();
+		AgentList agList = new AgentList();
+		agList.print();
 	}
 
 }
