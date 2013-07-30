@@ -8,6 +8,8 @@ public class Main {
 	public static void main(String[] args) {
 		System.out.println("Main starting");
 		System.out.println("running");
+		SensorList sensList = new SensorList();
+		sensList.print();
 	}
 
 }
